@@ -78,7 +78,7 @@ var TextStyle = require('../TextStyle');
  * @param {number} x - The horizontal position of this Game Object in the world.
  * @param {number} y - The vertical position of this Game Object in the world.
  * @param {(string|string[])} text - The text this Text object will display.
- * @param {Phaser.Types.GameObjects.TextStyle} style - The text style configuration object.
+ * @param {Phaser.Types.GameObjects.Text.TextStyle} style - The text style configuration object.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#Valid_family_names
  */
