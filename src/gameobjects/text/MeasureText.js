@@ -30,8 +30,8 @@ var MeasureText = function (textStyle) {
     };
 
     var measure = context.measureText(textStyle.testString);
-    var ascent = metrics.actualBoundingBoxAscent;
-    var descent = metrics.actualBoundingBoxDescent;
+    var ascent = measure.actualBoundingBoxAscent;
+    var descent = measure.actualBoundingBoxDescent;
     if (ascent !== undefined && descent !== undefined) {
         output.ascent = ascent;
         output.descent = descent;

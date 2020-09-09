@@ -3,6 +3,5 @@
 /bin-release/*
 /node_modules/*
 /builds/*
-/dist/*
 /yarn-error.log
 
