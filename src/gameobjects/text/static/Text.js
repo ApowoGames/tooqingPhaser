@@ -277,6 +277,8 @@ var Text = new Class({
 
         this.setText(text);
 
+        this.texture.setFilter(0);
+
         if (style && style.padding)
         {
             this.setPadding(style.padding);
