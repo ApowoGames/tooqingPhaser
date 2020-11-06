@@ -25,7 +25,7 @@ class Parser {
     }
     emit() {
         let ignored = [];
-        let result = ""; // '/// <reference types="./matter" />\n\n';
+        let result = '/// <reference types="./matter" />\n\n';
         result = result.concat(this.topLevel.reduce((out, obj) => {
             return out + dom.emit(obj);
         }, ''));

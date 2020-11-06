@@ -39,5 +39,7 @@ var InjectionMap = {
     load: 'load',
     time: 'time',
     tweens: 'tweens',
+
+    matterPhysics: 'matter'
 };
 module.exports = InjectionMap;
