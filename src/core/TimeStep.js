@@ -602,7 +602,6 @@ var TimeStep = new Class({
         this.lastTime = time;
 
         this.frame++;
-        // if(this.framesThisSecond>100) console.log('framesThisSecond ======',this.framesThisSecond);
     },
 
     /**

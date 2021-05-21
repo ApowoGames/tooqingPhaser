@@ -520,7 +520,7 @@ var CanvasRenderer = new Class({
 
         state.getPixel = getPixel;
 
-        CanvasSnapshot(canvas, state);
+        CanvasSnapshot(this.gameCanvas, state);
 
         state.callback = null;
 
