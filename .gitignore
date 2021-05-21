@@ -5,3 +5,4 @@
 /builds/*
 /yarn-error.log
 
+.idea/*
