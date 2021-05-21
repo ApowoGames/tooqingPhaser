@@ -1,6 +1,6 @@
 {
   "name": "tooqinggamephaser",
-  "version": "0.2.8",
+  "version": "0.3.1",
   "description": "tooqinggamephaser",
   "main": "./dist/phaser.js",
   "types": "./types/tooqinggamephaser.d.ts",
